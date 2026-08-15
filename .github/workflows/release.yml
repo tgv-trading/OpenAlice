@@ -1,8 +1,7 @@
 name: Release
 
 on:
-  push:
-    branches: [master]
+  # Publishing is an explicit operator action, not a side effect of merging.
   workflow_dispatch:
 
 jobs:
